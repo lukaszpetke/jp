@@ -1,4 +1,7 @@
-jp
-==
+##########################
+# notatka z labolatorium #
+##########################
 
-języki programowania
+```sh
+mkdir katalog1
+```
