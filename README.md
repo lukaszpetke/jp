@@ -1,6 +1,6 @@
-jp
+Języki programowania
 ==
 
-języki programowania
+Zadania z C
 
 https://inf.ug.edu.pl/~tdz/C/
