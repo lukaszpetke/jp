@@ -1,0 +1,19 @@
+function oblicz()
+{
+if [ $1 -gt 0 ]
+then
+    echo "x rowny 1"
+
+elif [ $1 -eq 0 ]
+then
+    echo "x rowny 0"
+
+elif [ $1 -lt 0 ]
+then
+    echo "x rowny -1"   
+fi
+}
+
+echo "wpisz $x"
+read x
+oblicz $x
