@@ -1,0 +1,4 @@
+echo "Twoje dwa argumenty to: $1 $2"
+echo "Obliczam..."
+echo "wynik: $[($1*$2)/2]"
+
