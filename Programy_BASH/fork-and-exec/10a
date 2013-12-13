@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <unistd.h>
+#include <sys/types.h>
+
+int main()
+{
+  int x,y;
+
+  printf("pierwszy program \n");
+  
+  printf("pid %d\n",getpid());
+    fork();
+    printf("po fork\n");
+    printf("pid %d\n",getpid());
+     
+return 0;
+}
