@@ -1,17 +1,22 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <math.h> 
 
-int main()
-{
-    int a, b, p;
+int p,x,y;
 
-    printf("Podaj liczbe a: ");
-    scanf("%d", &a);
-    printf("Podaj liczbe b: ");
-    scanf("%d", &b);
-    p=a*b;
-    printf("Pole prostokata jest rowne=%d\n",p);
 
-    return 0;
+int pkw(int a,int b){
+  int pole;
+  pole = a*b;
+  return pole;
 }
+
+int main(){
+  printf("Podaj liczbe a:  ");
+  scanf("%d",&x);
+  printf("Podaj liczbe b: ");
+  scanf("%d",&y);
+
+  p=pkw(x,y) ;
+  printf("Pole kwadratu: %d\n",p);
+
+}
+
