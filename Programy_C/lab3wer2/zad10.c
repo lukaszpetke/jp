@@ -12,7 +12,7 @@ int main()
   scanf("%d", &b);
 
   for (a; a<=b; a++){
-    s=s+a;
+    s=s*a;
  
     //printf("silnia=%d | a=%d\n",s, a);
   }
