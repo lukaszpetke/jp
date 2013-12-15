@@ -4,7 +4,7 @@ int p,x,y;
 
 int pkw(int a,int b){
   int pol;
-  pol = a*b/2;
+  pol = (a/2)*b;
   return pol;
 }
 
