@@ -1,17 +1,20 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <math.h> 
 
-int main()
-{
-    int a, b, p;
+int p,x,y;
 
-    printf("Podaj liczbe a: ");
-    scanf("%d", &a);
-    printf("Podaj liczbe b: ");
-    scanf("%d", &b);
-    p=(a/2)*b;
-    printf("Pole deltoidu jest rowne=%d\n",p);
+int pkw(int a,int b){
+  int pol;
+  pol = a*b/2;
+  return pol;
+}
 
-    return 0;
+
+int main(){
+  printf("Podaj liczbe a: ");
+  scanf("%d",&x);
+  printf("Podaj liczbe b: ";
+  scanf("%d",&y);
+
+  p=pkw(x,y) ;
+  printf("Pole deltoidu jest rowne = %d\n",p);
 }
